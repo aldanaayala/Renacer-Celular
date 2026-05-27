@@ -470,10 +470,10 @@ footer p{
     .slider{
         max-width: 300px;
     }
-    
+
     body{
-    padding: top 170px;
-}
+    padding-top: 170px;
+    }
 }
 
 @media(max-width: 576px){
