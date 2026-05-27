@@ -442,9 +442,9 @@ footer p{
     }
 
     nav ul{
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
-        gap: 15px;
+        gap: 18px;
     }
 
     .hero{
@@ -470,6 +470,10 @@ footer p{
     .slider{
         max-width: 300px;
     }
+    
+    body{
+    padding: top 170px;
+}
 }
 
 @media(max-width: 576px){
@@ -496,4 +500,5 @@ footer p{
     .catalogo-card img{
         height: 180px;
     }
+
 }
